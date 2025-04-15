@@ -27,5 +27,12 @@ Once the script is launched:
 
 ```bash
 git clone https://https://github.com/gurmehakkaur/SenecaGradeCalc
+```
+### 2. Download dependencies
+```bash
 pip install -r requirements.txt
+```
+### 3. Run the script
+```bash
 python main.py
+```
