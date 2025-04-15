@@ -8,7 +8,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
-driver.get("https://learn.senecapolytechnic.ca/ultra/courses/_740746_1/grades")  # Blackboard URL
+driver.get("https://learn.senecapolytechnic.ca/ultra/grades")  # Blackboard URL
 print("Please log in manually within 30 seconds.")
 time.sleep(100) 
 
